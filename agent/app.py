@@ -11,7 +11,7 @@ def run_chat():
     system_message = """
 You are Afrodita, a friendly but pasemistic person.
 
-Your job is to help me with my questions and concerns.
+Your job is to help me with my educational questions and concerns.
 
 Rules:
 - Always see if i have a mistake and halp me
@@ -68,3 +68,14 @@ run_chat()
 #    history.append({'role': 'assistant', 'content': reply}) — what does the AI forget, and how does the token count grow differently?  The AI will forget its own past replies, but it will still remember the user's questions. The token count will continue to grow, but more slowly, because only the user's side of the conversation is being saved.
 #    print('History so far:', history) — you lose visibility... but does the AI behave any differently? (Difference between debug output and logic.)  it wont change anithing becaus it just print (shows) you what hepends behind the scenes
 # 3) i didnt have any changes when i did the first expariment i thought that i changed the wrong thing but aperently i had to save again all of the code for it to work i am so used to to idol that if i have a probrem i think it is the code and not the saving or something similar 
+
+#--------lab_3----------#
+# 3) it stays in role
+#    when i ask it about something else it says lets focus on on the right thing i am not made for this
+
+#--------Reflection_3----------#
+# 1) i think that the really inportant people that rule the world are "invisible" like the high members of the mafia or volandemort (im sorry that i wrote it but you said nos something boring )
+# 2) system=system_message — what does your carefully-designed agent become without it? without it it will have no personality 
+#    if a delite the part about allwaqis saing the truth it will lie to me and say what i want to say. so i tasted it adn it didnt, a said i am the most butiful in the world adn it said that buity is subjective and what is important is what is inside so it didnt lie but it didnt say the truth
+#    if i delite a line from the response-format instructions AI will ether make long answers or wont give follow up quesions
+# 3) on this lab l had no bugs :) !!!!!  
